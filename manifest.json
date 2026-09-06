@@ -1,1 +1,33 @@
-
+{
+  "name": "GramCinema + ShowBox",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "gramcinema",
+      "name": "GramCinema",
+      "description": "GramCinema",
+      "version": "1.0.0",
+      "author": "Xyr0nX • =[D3adly]=",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/gramcinema.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/WbNPW7Jv/gramcinema.png",
+      "contentLanguage": ["en", "hi", "ta", "ru"]
+    },
+    {
+      "id": "showbox",
+      "name": "ShowBox",
+      "description": "ShowBox",
+      "version": "1.0.0",
+      "author": "Nuvio",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/showbox.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "contentLanguage": ["en", "hi"]
+    }
+  ]
+}
